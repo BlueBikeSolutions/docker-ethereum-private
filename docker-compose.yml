@@ -1,0 +1,15 @@
+version: '2'
+services:
+  geth:
+    build: .
+    command: start
+    ports:
+      - 30303:30303
+      - 8545:8545
+    volumes:
+      - ./root/entrypoint.sh:/entrypoint.sh
+      - ./root/genesis.json:/genesis.json
+      - data:/root/.ethereum
+
+volumes:
+  data: {}
