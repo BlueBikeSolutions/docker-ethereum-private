@@ -27,10 +27,10 @@ geth attach http://localhost:8545
 
 ## Primary account
 
-The testnet is pre-populates a primary account with 300000 wei. Here's the
+The testnet pre-populates a primary account with 300000 wei. Here's the
 details:
 
-**Address:** `65c5902748130577003dda31e0979b3331430c76`
+**Address:** `65c5902748130577003dda31e0979b3331430c76`<br/>
 **Password:** `password`
 
 To check that this works, you can attach to the node shell, and issue the
