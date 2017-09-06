@@ -6,6 +6,7 @@ What this gives you:
 - Node HTTP RPC
 - Blocks being mined
 - An account starting with 300000 wei
+- Persistent volume for the chain
 
 # To start
 
