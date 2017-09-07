@@ -44,7 +44,7 @@ true
 # Differences to the real chain
 
 There are many many differences between a testnet and the real chain, and I'm
-no expert, but here are a few of them:
+no expert (yet), but here are a few of them:
 
 - This is obviously not secure; it's very hackable
   - Maybe you want that for a PoC
